@@ -1,0 +1,44 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-bg-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #eee;
+}
+
+.login-bg-box-bottom img + img {
+    margin-left: 10px;
+}
+
+.login-form-box {
+    padding-left: 20px; 
+    width: 400px;
+}
+
+.login-form-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: green;
+    margin-bottom: 30px;
+}
+
+.remember-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-btn {
+    width: 100%;
+}
+
+.register-box {
+    text-align: center;
+}
